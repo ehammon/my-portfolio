@@ -131,6 +131,7 @@ header nav ul li a:hover {
 .work-row-1{
     display: flex;
     flex-wrap: wrap;
+    max-width: 100%;
 }
 .run-buddy {
     background-size: cover;
@@ -142,6 +143,7 @@ header nav ul li a:hover {
 .run-buddy img {
     display: flex;
     background-size: auto;
+    max-width: 100%;
     
 }
 .work-name h3 {
