@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #735919;
+    --secondary-color: #a3790d;
+    --hover-color: #c7b381;
+    --lightest-color: #f0ece4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--lightest-color);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("../assets/images/tim-mossholder-RTfqNYKbqE4-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    align-items: center;
+}
+
+
+
+header a {
+    text-decoration: none;
+    color: #36332c;
+    
+    
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+
+}
+
