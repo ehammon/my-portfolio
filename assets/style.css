@@ -152,6 +152,10 @@ header nav ul li a:hover {
 
 }
 
+.run-buddy img:hover {
+    color: var(--mustard)
+    opacity: 0.5;
+}
 
 
 
