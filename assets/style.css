@@ -190,4 +190,7 @@ header nav ul li a:hover {
     justify-content: space-around;
 }
 
+.contact-info a:hover {
+    color: var(--mustard);
+}
 
