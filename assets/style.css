@@ -195,6 +195,8 @@ header nav ul li a:hover {
     margin-top: 50px;
     color: var(--brown);
     justify-content: space-around;
+    font-size: 2vw;
+    flex-wrap: wrap;
 }
 
 .contact-info a:hover {
