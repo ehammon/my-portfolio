@@ -70,6 +70,7 @@ header nav ul li a:hover {
     flex: 20%;
     display: flex;
     align-self: center;
+    padding-left: 10px;
 }
 .headshot img {
     display: flex;
@@ -94,6 +95,7 @@ header nav ul li a:hover {
     justify-content: flex-end;
     margin: 20px;
     font-size: 2.25vw;
+    color: var(--ochre);
 }
 
 .about-me-p {
@@ -101,6 +103,7 @@ header nav ul li a:hover {
     line-height: 1.25;
     margin: 20px;
     font-size: 1.5vw;
+    color: var(--brown);
 }
 /* about me end */
 
@@ -119,11 +122,13 @@ header nav ul li a:hover {
     justify-content: flex-start;
     margin: 20px 10px;
     font-size: 2.25vw;
+    color:var(--ochre);
 }
 
 .work-portfolio {
     display: flex;
     flex: 80%;
+    padding: 7px;
 }
 
 /* run buddy box */
@@ -132,6 +137,7 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
+    align-self: flex-start;
 }
 .run-buddy {
     background-size: cover;
@@ -149,12 +155,28 @@ header nav ul li a:hover {
 .work-name h3 {
     font-size: 2.5vw;
     background-color: var(--tan);
-
+    color: var(--brown);
 }
 
-.run-buddy img:hover {
-    color: var(--mustard)
-    opacity: 0.5;
+.run-buddy:hover {
+    color: var(--ochre);
+    opacity: 0.8;
+}
+
+.work-row-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 100%;
+    height: 50%;
+    align-self: flex-end;
+    padding: 5px;
+}
+
+.fake-project img {
+    display: flex;
+    max-width: 50%;
 }
 
 
