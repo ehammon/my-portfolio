@@ -32,6 +32,7 @@ header {
     background-position: center;
     height: 120px;
     align-items: center;
+    text-shadow: -2px 2px 2px rgba(115,89,25,.5);
 }
 
 header h1 {
@@ -140,6 +141,7 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     max-width: 100%;
     align-self: flex-start;
+    margin-right: 5px;
 }
 .run-buddy {
     background-size: cover;
@@ -178,6 +180,7 @@ header nav ul li a:hover {
     height: 50%;
     align-self: flex-end;
     margin-top: 5px;
+    margin-right: 5px;
 }
 
 .work-row-2 img {
