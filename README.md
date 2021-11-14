@@ -3,12 +3,12 @@
 ## Purpose
 A portfolio website showcasing my latest coding projects.
 
-##Built With
-*HTML
-*CSS
+## Built With
+* HTML
+* CSS
 
-##Website
+## Website
 
 
-##Contribution
+## Contribution
 Made by Emily Hammon
