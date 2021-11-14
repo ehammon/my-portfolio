@@ -105,6 +105,7 @@ header nav ul li a:hover {
     font-size: 1.5vw;
     color: var(--brown);
 }
+
 /* about me end */
 
 /*portfolio section begin*/
@@ -142,7 +143,7 @@ header nav ul li a:hover {
 }
 .run-buddy {
     background-size: cover;
-    border: 1px solid var(--mustard);
+    border: 2px solid var(--mustard);
     align-items: center;
     background-repeat: no-repeat;
 }
@@ -157,6 +158,10 @@ header nav ul li a:hover {
     font-size: 2.5vw;
     background-color: var(--tan);
     color: var(--brown);
+}
+
+.work-name a {
+    text-decoration: none;
 }
 
 .run-buddy:hover, .hydrangea:hover, .stucco:hover {
@@ -177,9 +182,8 @@ header nav ul li a:hover {
 
 .work-row-2 img {
     max-width: 49.5%;
-    border: 1px solid var(--mustard);
+    border: 2px solid var(--mustard);
 }
-
 
 /* contact start */
 .contact-info {
